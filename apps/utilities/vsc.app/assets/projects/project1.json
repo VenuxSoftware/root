@@ -1,0 +1,610 @@
+{
+  "project": {
+    "name": "The Venux Project",
+    "description": "Initial project to test all Venux Semantic Compiler capabilities as well as to generate the code base to support it",
+    "copyright": "Venux. All rights reserved.",
+    "version": "0.1.0",
+    "year": 2013,
+    "source": "https://github.com/VenuxSoftware/root/",
+    "author": {
+      "name": "Eugene Nosko", 
+      "email": "coder@venux.com", 
+      "url": "https://venux.com/",
+      "title": "core developer"
+    },
+    "contributors": [
+      "Experimental <none@mail.com>"
+    ]
+  },
+  "implementation": {
+    "apps": {
+      "codex": {
+        "source": "/apps/",
+        "description": "IDE",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "document": {
+        "source": "/apps/",
+        "description": "The Document Foundation",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "files": {
+        "source": "/apps/",
+        "description": "Files manager",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "mail": {
+        "source": "/apps/",
+        "description": "E-Main Client",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "media": {
+        "source": "/apps/",
+        "description": "Multimedia Engine",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "settings": {
+        "source": "/apps/",
+        "description": "System Settings",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "web": {
+        "source": "/apps/",
+        "description": "Web Browser",
+        "version": "0.1.0",
+        "year": 2016
+      }
+    },
+    "utilities": {
+      "calc": {
+        "source": "/apps/utilities/",
+        "description": "Calculator",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "iana": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "music": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "node": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "recorder": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "typo": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "update": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "vrt": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "vsc": {
+        "source": "/apps/utilities/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      }
+    },
+    "services": {
+      "battery": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "bitmap": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "bluetooth": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "broadcast": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "cloud": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "datetime": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "dav": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "edi": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "email": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "file": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "folder": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "ftps": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "gate": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "ginix": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "hardware": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "https": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "icy": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "internet": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "ipc": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "keyboard": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "ldap": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "location": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "mime": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "mouse": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "multicast": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "music": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "network": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "ocsp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "otp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "pgp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "pki": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "pulse": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "rtp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "rtsp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "saml": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "sampler": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "sftp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "shoutcast": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "sip": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "sntp": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "ssh": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "ssl": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "streaming": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "stun": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "sync": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "talk": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "tdf": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "tunneling": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2015
+      },
+      "typography": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "w3c": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      },
+      "wave": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "whisper": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "wifi": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "xml": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "zip": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "zipper": {
+        "source": "/system/services/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2016
+      }
+    },
+    "shell": {
+      "avpn": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2013
+      },
+      "connect": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2014
+      },
+      "dock": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "explore": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "home": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      },
+      "logon": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2017
+      },
+      "notify": {
+        "source": "/system/shell/",
+        "description": "...",
+        "version": "0.1.0",
+        "year": 2018
+      }
+    }
+  },
+  "packages": {
+    "agg": {
+      "source": "https://github.com/VenuxSoftware/agg/",
+      "description": "Anti-Grain Geometry",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 4
+    },
+    "dmtf": {
+      "source": "https://github.com/VenuxSoftware/dmtf/",
+      "description": "Distributed Management Task Force",
+      "version": "0.1.0",
+      "year": 2018,
+      "layer": 2
+    },    
+    "ecma": {
+      "source": "https://github.com/VenuxSoftware/ecma/",
+      "description": "Ecma International",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 4
+    },
+    "etsi": {
+      "source": "https://github.com/VenuxSoftware/etsi/",
+      "description": "European Telecommunications Standards Institute",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 2
+    },
+    "iana": {
+      "source": "https://github.com/VenuxSoftware/iana/",
+      "description": "Internet Assigned Numbers Authority",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 3
+    },
+    "iec": {
+      "source": "https://github.com/VenuxSoftware/iec/",
+      "description": "International Electrotechnical Commission",
+      "version": "0.1.0",
+      "year": 2018,
+      "layer": 2
+    },
+    "ieee": {
+      "source": "https://github.com/VenuxSoftware/ieee/",
+      "description": "Institute for Electrical and Electronics Engineers",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 1
+    },
+    "ietf": {
+      "source": "https://github.com/VenuxSoftware/ietf/",
+      "description": "Internet Engineering Task Force",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 2
+    },
+    "iso": {
+      "source": "https://github.com/VenuxSoftware/iso/",
+      "description": "International Organization for Standardization",
+      "version": "0.1.0",
+      "year": 2018,
+      "layer": 2
+    },
+    "khronos": {
+      "source": "https://github.com/VenuxSoftware/khronos/",
+      "description": "Khronos Group",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 4
+    },
+    "npi": {
+      "source": "https://github.com/VenuxSoftware/npi/",
+      "description": "Node Program Interface",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 5
+    },
+    "tdf": {
+      "source": "https://github.com/VenuxSoftware/tdf/",
+      "description": "The Document Foundation",
+      "version": "0.1.0",
+      "year": 2017,
+      "layer": 4
+    },
+    "unicode": {
+      "source": "https://github.com/VenuxSoftware/unicode/",
+      "description": "The Unicode Consortium",
+      "version": "0.1.0",
+      "year": 2018,
+      "layer": 5
+    },
+    "venux": {
+      "source": "https://github.com/VenuxSoftware/venux/",
+      "description": "Venux Technologies",
+      "version": "0.1.0",
+      "year": 2013,
+      "layer": 4
+    },
+    "w3c": {
+      "source": "https://github.com/VenuxSoftware/w3c/",
+      "description": "World Wide Web Consortium",
+      "version": "0.1.0",
+      "year": 2016,
+      "layer": 7
+    }
+  }
+}
