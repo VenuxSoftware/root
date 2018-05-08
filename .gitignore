@@ -44,6 +44,9 @@
 *.vls   # Venux lenguage specification
 *.vpp   # Venux pascal program
 
+*.g3
+*.g4
+
 # The Document Foundation
 *.tdf   # Ignore for now
 
