@@ -1,0 +1,114 @@
+﻿*, body {
+    margin: 0;
+    padding: 0;
+    font: 100% arial, sans-serif;
+}
+
+.contact_name {
+    font-size: 84%;
+    font-weight: bold;
+    font-family: Arial;
+    color: #555;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.contact_img {
+    margin-left: 5px;
+    border: 1px solid #9E9E9E;
+    width: 36px;
+    height: 36px;
+    background: white;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+    .contact_img img {
+        border: none;
+        margin: 0;
+        border-radius: 50%;
+        width: 36px;
+        height: inherit;
+    }
+
+.time_stamp {
+    text-align: right;
+    font-size: 70%;
+    text-shadow: none;
+    float: right;
+    color: silver;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px;
+}
+
+.date {
+    font-size: 60%;
+    text-align: center;
+    font-family: Arial;
+    color: #555;
+    font-weight: bold;
+    margin: 4px auto;
+    display: block;
+    clear: both;
+}
+
+.history_item_wrapper {
+    padding: 10px 5px;
+    border-bottom: 1px solid #F3F3F3;
+    overflow: hidden;
+    position: relative;
+}
+
+.history_item_icon {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.missed_call {
+    background: url(../images/control_icon_missedcalll_color.png) no-repeat;
+}
+
+.voice_mail {
+    background: url(../images/control_icon_voicemessagel_color.png) no-repeat;
+}
+
+.outgoing_call {
+    background: url(../images/control_icon_outcall_color.png) no-repeat;
+}
+
+.incoming_call {
+    background: url(../images/control_icon_incall_color.png) no-repeat;
+}
+
+.info_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+}
+
+
+.history_description {
+    font: 60% arial, sans-serif;
+    display: inline-block;
+    color: silver;
+    vertical-align: bottom;
+}
+
+.message_preview {
+    margin-left: 20px;
+    color: #797979;
+    font-size: 75%;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-mask-image: -webkit-linear-gradient(right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
+}
