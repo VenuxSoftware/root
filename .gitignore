@@ -5,3 +5,16 @@
 *.qpu
 *.ast
 *.json
+
+// Ignoring web content for now
+*.pdf
+*.txt
+*.psd
+*.ai
+*.ico
+*.png
+*.jpg
+*.gif
+*.svg
+*.html
+*.css
