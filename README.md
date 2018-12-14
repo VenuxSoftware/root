@@ -1,4 +1,4 @@
-# Venux Platform - version 0.1.0 (build 71)
+# Venux Platform - version 0.1.0 (build 72)
 ---
 **Legend:**
           
@@ -7,9 +7,32 @@
 	[*] Improved/changed feature 
 	[-] Bug fixed
 
+## [Build 72](https://github.com/VenuxSoftware?tab=repositories)
+**December 14, 2018** - Alpha version
+
+- [`!`] `CHANGELOG.md` was renamed into `README.md` since it is now in [root](https://github.com/VenuxSoftware/root/)  
+- [`!`] [IEEE](https://github.com/VenuxSoftware/ieee/) was completely refactored to be more standards compliant
+- [`*`] [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) now supports `standards extensions` which [IEEE](https://github.com/VenuxSoftware/ieee/) uses heavily due to refactoring
+- [`*`] Performance improvements in [IANA](https://github.com/VenuxSoftware/iana) engine due to refactoring
+- [`*`] [AGG](https://github.com/VenuxSoftware/agg) has been moved to [Venux Technologies](https://github.com/VenuxSoftware/venux/) since it does not belong to any `SDO` plus bug fixes and performance improvements
+- [`*`] [W3C](https://github.com/VenuxSoftware/w3c) now supports most of `HTML 3.0` and `CSS 2.0` standard features
+- [`+`] [Venux Technologies](https://github.com/VenuxSoftware/venux/) (`Venux`) has been established and its packages moved there
+- [`+`] [AVPN](https://github.com/VenuxSoftware/venux/src/vxm01_2014) now supports newer [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) features to implement `global-transactions` tracker
+- [`+`] [AVPN](https://github.com/VenuxSoftware/venux/src/vxm01_2014) has been extended with `network-wide` search capabilities for specific files and `packages`
+- [`+`] [AVPN](https://github.com/VenuxSoftware/venux/src/vxm01_2014) now supports `packages` as `virtual-link` for a group of files to retrieve and/or upload
+- [`+`] [AVPN](https://github.com/VenuxSoftware/venux/src/vxm01_2014) now supports `downloads` and `uploads` for single file or a group of files defines as `packages`
+- [`+`] [AVPN](https://github.com/VenuxSoftware/venux/src/vxm01_2014) now supports [AVPN URI](https://github.com/VenuxSoftware/venux/docs/AVPNURI.md) to identify `resources` within the network
+- [`+`] [PIN](https://github.com/VenuxSoftware/venux/src/vxa01_2014) algorithm has been introduced. The algorithm computes; 
+  *  finite `identifier` that is `human-readable`
+  *  represents `network address` of `resource` and/or `transaction`     
+- [`+`] [Universal ID](https://github.com/VenuxSoftware/venux/src/vxc01_2014) (`UID`) has been introduced. `UID` is a combination of technologies that constructs user-profile  
+- [`+`] Initial implementation of [Model-view-controller](https://github.com/VenuxSoftware/venux/src/vxs02_2016) (`MVC`) has been established
+- [`+`] Initial implementation of [State Machine](https://github.com/VenuxSoftware/venux/src/vxs01_2015) (`State`) has been established   
+- [`+`] Initial implementation of [Venux Runtime](https://github.com/VenuxSoftware/venux/src/vxr00_2014) (`VRT`) in [Venux Technologies](https://github.com/VenuxSoftware/venux/) with basic (`ISA - Instruction set architecture`) and [ANTLR](https://github.com/VenuxSoftware/antlr) based (`LDL - Lambda Description Language`) architecture
+- [`+`] Initial implementation of `GUI` windowing system in [Venux Technologies](https://github.com/VenuxSoftware/venux/)
+
 ## [Build 71](https://github.com/VenuxSoftware?tab=repositories)
-May 01, 2018_
-_Alpha version_
+**May 01, 2018** - Alpha version
 
 - [`!`] Completely refactored [utility](https://github.com/VenuxSoftware/utils) package into new [root](https://github.com/VenuxSoftware/root) architecture at locations [/apps/utilities/](https://github.com/VenuxSoftware/root/apps/utilities) and [/system/services/](https://github.com/VenuxSoftware/root/system/services)
 - [`!`] ChangeLog (`this file`) have been moved from [VSC](https://github.com/VenuxSoftware/vsc) into [root](https://github.com/VenuxSoftware/root/apps/utilities/vsc.app) repository
@@ -18,29 +41,28 @@ _Alpha version_
 - [`-`] Bug fixes in [W3C](https://github.com/VenuxSoftware/w3c) engine as well as little improvements in rendering capabilities
 - [`-`] Bug fixes in [AVPN](https://github.com/VenuxSoftware/avpn) engine as well as improvements in `disconnect` logic when `peers` go offline for any reasons
 - [`*`] Performance improvements in [IANA](https://github.com/VenuxSoftware/iana) engine
-- [`*`] [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) has been extended with `standard tags` such as `function`, `category`, `purpose`, '...' allowing for packages and standards to self organize as well as to form `access-security-policies` 
+- [`*`] [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) has been extended with `standard tags` such as `function`, `category`, `purpose`, '...' allowing for packages and standards to self organize as well as to form `access-security-policies` 
 - [`*`] Defined 4 types of applications for `Venux Platform`;
   * `app` - Window User Application (`multi-instance allowed`)
   * `utility` - Window and/or Terminal application (`multi-instance allowed`)
   * `service` - Window or silent application that can start automatically (`single-instance only`)
   * `shell` - Window and/or Terminal and/or Silent application that started by [IANA](https://github.com/VenuxSoftware/iana) engine right after its initialization and execution (`single-instance only`)
 - [`*`] [Shell](https://github.com/VenuxSoftware/ieee/tree/master/src/shell) now have `mount` consumer and producer allowing connection with other services and protocols 
-- [`*`] [Shell](https://github.com/VenuxSoftware/ieee/tree/master/src/shell) and [Update](https://github.com/VenuxSoftware/update) has been improved to support new [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) architecture forming `file-structure` (outlined in [root](https://github.com/VenuxSoftware/root))
+- [`*`] [Shell](https://github.com/VenuxSoftware/ieee/tree/master/src/shell) and [Update](https://github.com/VenuxSoftware/update) has been improved to support new [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) architecture forming `file-structure` (outlined in [root](https://github.com/VenuxSoftware/root))
 - [`*`] [Update](https://github.com/VenuxSoftware/update) is now able to enforce `system/local wide` policies and make changes on behalf of other processes according to defined `access-security-policies`
 - [`*`] Initial `multi-user` support has been added and integrated into [Shell](https://github.com/VenuxSoftware/ieee/tree/master/src/shell), [AVPN](https://github.com/VenuxSoftware/avpn) and [Update](https://github.com/VenuxSoftware/update) applications
 - [`*`] Improvements in [NPI](https://github.com/VenuxSoftware/npi) (`Node Program Interface`) with full support for `require()` function
 - [`+`] [European Telecommunications Standards Institute](https://github.com/VenuxSoftware/etsi) (`ETSI`) package has been established and integrated with [VSC](https://github.com/VenuxSoftware/apps/utilities/vsc.app) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md)
-- [`+`] [The Document Foundation](https://github.com/VenuxSoftware/tdf) (`TDF`) package has been established and integrated with [VSC](https://github.com/VenuxSoftware/apps/utilities/vsc.app) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md)
-- [`+`] [Khronos Group](https://github.com/VenuxSoftware/khronos) (`Khronos`) package has been established and integrated with [VSC](https://github.com/VenuxSoftware/apps/utilities/vsc.app) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md)    
+- [`+`] [The Document Foundation](https://github.com/VenuxSoftware/tdf) (`TDF`) package has been established and integrated with [VSC](https://github.com/VenuxSoftware/apps/utilities/vsc.app) and [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md)
+- [`+`] [Khronos Group](https://github.com/VenuxSoftware/khronos) (`Khronos`) package has been established and integrated with [VSC](https://github.com/VenuxSoftware/apps/utilities/vsc.app) and [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md)    
 - [`+`] Initial implementation of [Venux Runtime](https://github.com/VenuxSoftware/vrt) (`VRT`) engine with plug-able multi-language support. The languages will be parsed/generated using [ANTLR](https://github.com/VenuxSoftware/antlr) package eventually but while in development, hand-written parsers will be used for validity
 - [`+`] Initial support for [EcmaScript](https://github.com/VenuxSoftware/ecma) `v2018` has been established as hand-written parser/generator for [VRT](https://github.com/VenuxSoftware/vrt) engine  
 
-## [Build 70](https://github.com/VenuxSoftware/venux/)
-_January 03, 2018_
-_Alpha version_
+## [Build 70](https://github.com/VenuxSoftware?tab=repositories)
+**January 03, 2018** - Alpha version
 
 - [`-`] Bug fixes and performance improvements in [IANA](https://github.com/VenuxSoftware/iana) engine
-- [`*`] [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) now supports `join-standard` registrations and utilizes memory/resource usage optimally
+- [`*`] [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) now supports `join-standard` registrations and utilizes memory/resource usage optimally
 - [`*`] [AVPN](https://github.com/VenuxSoftware/avpn) now has `Router/Hub/Peer` architecture designed to `anonymously-auto-synchronize` most of activities network wide using `PIN` algorithms
 - [`*`] [AVPN](https://github.com/VenuxSoftware/avpn) is now able to find its routers through `Distributed Hash Table` and connect to itself forming `peer-to-peer` network
 - [`*`] Implemented 8-Digit `PIN` identifiers withing [AVPN](https://github.com/VenuxSoftware/avpn), [Shell](https://github.com/VenuxSoftware/ieee/tree/master/src/shell) for `multi-user` support and security identification within `AVPN`
@@ -56,23 +78,21 @@ _Alpha version_
 - [`+`] Established system [root](https://github.com/VenuxSoftware/root) as initial file structure for `Venux Platform`  
 - [`+`] Initial implementation of `GUI` framework for [AGG](https://github.com/VenuxSoftware/agg) has been established and integrated with [Typo](https://github.com/VenuxSoftware/typo) and [Pixel](https://github.com/VenuxSoftware/pixel)
 - [`+`] [Venux Developer Network](https://github.com/VenuxSoftware/vdn) (`VDN`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc)
-- [`+`] [International Organization for Standardization](https://github.com/VenuxSoftware/iso) (`ISO`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md)
-- [`+`] [International Electrotechnical Commission](https://github.com/VenuxSoftware/iec) (`IEC`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md)
-- [`+`] [Distributed Management Task Force](https://github.com/VenuxSoftware/dmtf) (`DMTF`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md)
+- [`+`] [International Organization for Standardization](https://github.com/VenuxSoftware/iso) (`ISO`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc) and [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md)
+- [`+`] [International Electrotechnical Commission](https://github.com/VenuxSoftware/iec) (`IEC`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc) and [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md)
+- [`+`] [Distributed Management Task Force](https://github.com/VenuxSoftware/dmtf) (`DMTF`) has been established and integrated with [VSC](https://github.com/VenuxSoftware/vsc) and [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md)
 
-## [Build 69](https://github.com/VenuxSoftware/venux/)
-_November 28, 2017_
-_Alpha version_
+## [Build 69](https://github.com/VenuxSoftware?tab=repositories)
+**November 28, 2017** - Alpha version
 
-- [`!`] [utility](https://github.com/VenuxSoftware/utils) `reg` has been replaced with [SCI](https://github.com/VenuxSoftware/utils/tree/master/src/sci.js) which outlines all the processes of [Standards Compliant Interconnect](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model in real-time
-- [`*`] Improved [Standards Compliant Interconnect](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model with more flexible registration routines and better run-time control
+- [`!`] [utility](https://github.com/VenuxSoftware/utils) `reg` has been replaced with [SCI](https://github.com/VenuxSoftware/utils/tree/master/src/sci.js) which outlines all the processes of [Standards Compliant Interconnect](https://github.com/VenuxSoftware/ieee/docs/SCI.md) model in real-time
+- [`*`] Improved [Standards Compliant Interconnect](https://github.com/VenuxSoftware/ieee/docs/SCI.md) model with more flexible registration routines and better run-time control
 - [`+`] Completed porting of [AGG](https://github.com/VenuxSoftware/agg) package, all demos work as in original version
 - [`+`] Implemented [Document Object Model](https://www.w3.org/TR/DOM-Level-1/introduction.html) support in [W3C](https://github.com/VenuxSoftware/w3c)
 - [`+`] Implemented [Extensible Markup Language (XML)](https://www.w3.org/XML/) support in [W3C](https://github.com/VenuxSoftware/w3c)
  
-## [Build 68](https://github.com/VenuxSoftware/venux/)
-_November 03, 2017_
-_Alpha version_
+## [Build 68](https://github.com/VenuxSoftware?tab=repositories)
+**November 03, 2017** - Alpha version
 
 - [`-`] [IANA](https://github.com/VenuxSoftware/iana) engine compliance bug fixes
 - [`*`] [VSC](https://github.com/VenuxSoftware/vsc) now has an [IANA](https://github.com/VenuxSoftware/iana) based consumer/producer registration mechanism
@@ -84,9 +104,8 @@ _Alpha version_
 - [`+`] Integrated [AGG](https://github.com/VenuxSoftware/agg) with [W3C](https://github.com/VenuxSoftware/w3c) for visual and non-visual Web content rendering
 - [`+`] Implemented basic [iframe](https://www.w3.org/wiki/HTML/Elements/iframe) support in [W3C](https://github.com/VenuxSoftware/w3c)
 
-## [Build 67](https://github.com/VenuxSoftware/venux/)
-_September 18, 2017_
-_Alpha version_
+## [Build 67](https://github.com/VenuxSoftware?tab=repositories)
+**September 18, 2017** - Alpha version
 
 - [`*`] [IANA](https://github.com/VenuxSoftware/iana) engine is now [ACID](https://en.wikipedia.org/wiki/ACID) compliant
 - [`+`] Initial design of `root` directory structure for the Venux platform
@@ -96,9 +115,8 @@ _Alpha version_
 - [`+`] [VSC](https://github.com/VenuxSoftware/vsc)'s [RDF](https://github.com/VenuxSoftware/vsc/tree/master/language/en-US/rdf) is now language specific (only en-US is planned)
 - [`+`] Introduced new [utility](https://github.com/VenuxSoftware/utils) Music (Multilanguage design of heterogeneous systems) 
 
-## [Build 66](https://github.com/VenuxSoftware/venux/)
-_July 22, 2017_
-_Alpha version_
+## [Build 66](https://github.com/VenuxSoftware?tab=repositories)
+**July 22, 2017** - Alpha version
 
 - [`+`] Introduced new [utility](https://github.com/VenuxSoftware/utils) SAML (Security Assertion Markup Language)
 - [`+`] [Venux Semantic Compiler](https://github.com/VenuxSoftware/vsc/) now has integrated framework to extract/generate structured information from various formats in order to process data in table like fashion
@@ -122,22 +140,20 @@ _Alpha version_
 - [`+`] MS Outlook consumer and producer
 - [`+`] Integrated table/database format consumers/produces with [IANA](https://github.com/VenuxSoftware/iana) registry
 
-## [Build 65](https://github.com/VenuxSoftware/venux/)
-_May 29, 2017_
-_Alpha version_
+## [Build 65](https://github.com/VenuxSoftware?tab=repositories)
+**May 29, 2017** - Alpha version
 
-- [`+`] Implemented security model within [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model
+- [`+`] Implemented security model within [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) model
 - [`+`] Initial setup of [World Wide Web Consortium](https://github.com/VenuxSoftware/w3c) (`W3C`) package for Web/UI rendering
-- [`+`] Implemented initial [Institute for Electrical and Electronics Engineers](https://github.com/VenuxSoftware/ieee/)  (`IEEE`) package defined by [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model
+- [`+`] Implemented initial [Institute for Electrical and Electronics Engineers](https://github.com/VenuxSoftware/ieee/)  (`IEEE`) package defined by [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) model
 - [`+`] Implemented [Internet Assigned Numbers Authority](https://github.com/VenuxSoftware/iana) (`IANA`) registry for protocol/algorithms organization/synchronization as defined by [iana.org](https://www.iana.org/) and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model 
 - [`+`] Full support for [SQL'92](https://github.com/VenuxSoftware/iana/docs/REGISTRY.md) for [IANA](https://github.com/VenuxSoftware/iana) registry processing  
 - [`+`] Implemented automatic generation of all necessary SQL scripts and `Abstract Syntax Tree` to keep [IANA](https://github.com/VenuxSoftware/iana) registry up to date with [iana.org](https://www.iana.org/) database 
 
-## [Build 64](https://github.com/VenuxSoftware/venux/)
-_May 23, 2017_
-_Alpha version_
+## [Build 64](https://github.com/VenuxSoftware?tab=repositories)
+**May 23, 2017** - Alpha version
 
-- [`+`] Basic support for [Standards Compliant Interconnect](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model
+- [`+`] Basic support for [Standards Compliant Interconnect](https://github.com/VenuxSoftware/ieee/docs/SCI.md) model
 - [`+`] Basic [compiler](https://github.com/VenuxSoftware/vsc) that is able to assemble an initial codebase
 - [`+`] `Abstract Syntax Tree` consumer and producer 
 - [`+`] Implemented support for [OpenXPS (XPS, XML Paper Specification)](https://www.ecma-international.org/publications/standards/Ecma-388.htm) consumer and producer
@@ -150,5 +166,5 @@ _Alpha version_
 - [`+`] Implemented support for [WebIDL](https://heycam.github.io/webidl/) consumer and producer
 - [`+`] Integrated [WordNet](https://wordnet.princeton.edu/wordnet/frequently-asked-questions/database/) [database](https://github.com/VenuxSoftware/vsc/tree/master/rdf) 
 - [`+`] Implemented [projects](https://github.com/VenuxSoftware/vsc/blob/master/projects/) and initial `project` setup [project1](https://github.com/VenuxSoftware/vsc/blob/master/projects/project1.json)
-- [`+`] Initial [layout](https://github.com/VenuxSoftware?tab=repositories) of packages structure is generated according to specifications and [SCI](https://github.com/VenuxSoftware/venux/assets/docs/SCI.md) model
+- [`+`] Initial [layout](https://github.com/VenuxSoftware?tab=repositories) of packages structure is generated according to specifications and [SCI](https://github.com/VenuxSoftware/ieee/docs/SCI.md) model
 - [`+`] Defined a set of [utilities](https://github.com/VenuxSoftware/utils) to showcase capabilities of all the [packages](https://github.com/VenuxSoftware?tab=repositories)
